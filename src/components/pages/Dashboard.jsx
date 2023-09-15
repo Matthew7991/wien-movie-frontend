@@ -23,7 +23,7 @@ function Dashboard() {
   return (
     <main className="border-collapse w-fit">
       <Header text={"Willkommen Kinobesitzer"} />
-      <section className="flex flex-col items-center gap-4 px-4 pt-2 pb-6 bg-gray-300 border border-gray-500 w-fit">
+      <section className="flex flex-col items-center w-full gap-4 px-4 pt-2 pb-6 bg-gray-300 border border-gray-500">
         <div className="flex justify-between gap-4 ">
           <div className="p-2 bg-white border border-gray-500">
             <p className="text-2xl">Freie Plätze</p>
